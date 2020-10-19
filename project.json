@@ -1,0 +1,1599 @@
+{
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : 
+			{
+				"ui_MAIN_Menu" : "MENU<br/>",
+				"ui_Menu_1" : "General<br/>",
+				"ui_Menu_2" : "Background<br/>",
+				"ui_Menu_3" : "Visualization<br/>",
+				"ui_Menu_4" : "Audio<br/>",
+				"ui_Menu_5" : "Particles<br/>",
+				"ui_Menu_6" : "Experimental<br/>",
+				"ui_AUDIO_AA" : "Accentuation<br/>",
+				"ui_AUDIO_AA_Mode" : "➥&nbsp;Power<br/>",
+				"ui_AUDIO_Description" : "<small>Different audio settings.</small>",
+				"ui_AUDIO_PNC" : "Pink noise correction<br/>",
+				"ui_AUDIO_PP" : "Post-processing<br/>", 
+				"ui_AUDIO_Title" : "<h3><b>🔈&nbsp;Audio</b></h3>",
+				"ui_AUDIO_SI" : "Spectrum inversion<br/>",
+				"ui_AUDIO_SI_Mode_1" : "Without inversion<br/>",
+				"ui_AUDIO_SI_Mode_2" : "Left channel<br/>",
+				"ui_AUDIO_SI_Mode_3" : "Right channel<br/>",
+				"ui_AUDIO_SI_Mode_4" : "Both channels<br/>",
+				"ui_AUDIO_Swap" : "➥&nbsp;Swap channels<br/>",
+				"ui_AUDIO_AS" : "Audiodata size<br/>",
+				"ui_AUDIO_AS_Mode_1" : "64<br/>",
+				"ui_AUDIO_AS_Mode_2" : "128<br/>",
+				"ui_AUDIO_AS_Mode_3" : "256<br/>",
+				"ui_AUDIO_AS_Mode_4" : "512<br/>",
+				"ui_AUDIO_SM" : "Smooth transitions<br/>",
+				"ui_AUDIO_SM_Mode" : "➥&nbsp;Algorithm<br/>",
+				"ui_AUDIO_SM_Mode_1" : "Rain<br/>",
+				"ui_AUDIO_SM_Mode_2" : "Retention<br/>",
+				"ui_AUDIO_SM_Mode_3" : "SES<br/>",
+				"ui_AUDIO_SM_Mode_4" : "SMA<br/>",
+				"ui_AUDIO_SM_Mode_5" : "SMA (lite)<br/>",
+				"ui_AUDIO_SM_Mode_6" : "Holt's<br/>",
+				"ui_AUDIO_SM_SMA" : "➥&nbsp;Window size<br/>",
+				"ui_AUDIO_PP_MS" : "➥&nbsp;Matrix size<br/>",
+				"ui_AUDIO_PP_MS_Mode_1" : "1x3<br/>",
+				"ui_AUDIO_PP_MS_Mode_2" : "1x5<br/>",
+				"ui_AUDIO_PP_MS_Mode_3" : "1x7<br/>",
+				"ui_AUDIO_PP_CN" : "➥&nbsp;Number of cycles<br/>",
+				"ui_AUDIO_VC_Mode" : "Volume compensation mode<br/>",
+				"ui_AUDIO_VC_Mode_1" : "Peak<br/>",
+				"ui_AUDIO_VC_Mode_2" : "Floating Peak<br/>",
+				"ui_AUDIO_VC_Mode_3" : "Manually<br/>",
+				"ui_AUDIO_VC_Manual" : "➥&nbsp;Divisor<br/>",
+				"ui_AUDIO_Median" : "Median clipping<br/>",
+				"ui_AUDIO_adm" : "➥&nbsp;Additional clipping<br/>",
+				"ui_BG_Description" : "<small>The parameters related to background style and associated effects.</small>",
+				"ui_BG_EFFECTS" : "<strong>🔆 E F F E C T S</strong><br/>",
+				"ui_BG_Effects_Anaglyph" : "Anaglyph Moving<br/>",
+				"ui_BG_Effects_Anaglyph_Int" : "➥&nbsp;Intensity<br/>",
+				"ui_BG_Effects_Anaglyph_Sens" : "➥&nbsp;Sensitivity<br/>",
+				"ui_BG_Effects_Anaglyph_mode" : "➥&nbsp;Decomposition mode<br/>",
+				"ui_BG_Effects_Anaglyph_mode_1" : "Cyan/Red<br/>",
+				"ui_BG_Effects_Anaglyph_mode_2" : "Magenta/Green<br/>",
+				"ui_BG_Effects_Anaglyph_mode_3" : "Yellow/Blue<br/>",
+				"ui_BG_Effects_Anaglyph_mode_4" : "RGB<br/>",
+				"ui_BG_Effects_Anaglyph_mode_5" : "CMYK<br/>",
+				"ui_BG_Effects_Blur" : "Motion Blur<br/>",
+				"ui_BG_Effects_Blur_Int" : "➥&nbsp;Intensity<br/>",
+				"ui_BG_Effects_Blur_Sens" : "➥&nbsp;Sensitivity<br/>",
+				"ui_BG_Effects_Dupl" : "Duplication<br/>",
+				"ui_BG_Effects_Dupl_Int" : "➥&nbsp;Intensity<br/>",
+				"ui_BG_Effects_Shake" : "Vibration<br/>",
+				"ui_BG_Effects_Shake_Int" : "➥&nbsp;Intensity<br/>",
+				"ui_BG_Effects_PUL" : "Throbbing<br/>",
+				"ui_BG_Effects_PUL_Int" : "➥&nbsp;Intensity<br/>",
+				"ui_BG_Folder" : "➥&nbsp;Folder:<br/>",
+				"ui_BG_SS_Delay" : "➥&nbsp;Delay<br/>",
+				"ui_BG_SS_Delay_Mode_1" : "5 seconds<br/>",
+				"ui_BG_SS_Delay_Mode_2" : "10 seconds<br/>",
+				"ui_BG_SS_Delay_Mode_3" : "15 seconds<br/>",
+				"ui_BG_SS_Delay_Mode_4" : "20 seconds<br/>",
+				"ui_BG_SS_Delay_Mode_5" : "30 seconds<br/>",
+				"ui_BG_SS_Delay_Mode_6" : "1 minute<br/>",
+				"ui_BG_SS_Delay_Mode_7" : "2 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_8" : "3 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_9" : "5 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_10" : "10 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_11" : "15 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_12" : "20 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_13" : "30 minutes<br/>",
+				"ui_BG_SS_Delay_Mode_14" : "1 hour<br/>",
+				"ui_BG_SS_Delay_Mode_15" : "2 hours<br/>",
+				"ui_BG_SS_Delay_Mode_16" : "3 hours<br/>",
+				"ui_BG_SS_Delay_Mode_17" : "5 hours<br/>",
+				"ui_BG_SS_Delay_Mode_18" : "24 hours<br/>",
+				"ui_BG_Image" : "➥&nbsp;Image:<br/>",
+				"ui_BG_Style" : "Style<br/>",
+				"ui_BG_Style_1" : "Classic<br/>",
+				"ui_BG_Style_2" : "Circle-frame<br/>",
+				"ui_BG_Style_3" : "Tiles<br/>",
+				"ui_BG_Title" : "<h3><b>🌌&nbsp;Background</b></h3>",
+				"ui_BG_Type" : "Background type:<br/>",
+				"ui_BG_Type_1" : "Image<br/>",
+				"ui_BG_Type_2" : "Slideshow<br/>",
+				"ui_BG_Type_3" : "Video ❌<br/>",
+				"ui_EXP_Bool" : "Show settings<br/>",
+				"ui_EXP_DebugInfo" : "Show debug info<br/>",
+				"ui_EXP_FPSOnly" : "Show FPS only<br/>",
+				"ui_EXP_Description" : "<small>Be careful when you change these parameters.</small>",
+				"ui_EXP_ExpMod" : "Experimental Modifier<br/>",
+				"ui_EXP_param_Alpha" : "Alpha-modifier (smoothing)<br/>",
+				"ui_EXP_param_Beta" : "Beta-modifier (smoothing)<br/>",
+				"ui_EXP_FPSCap" : "FPS Cap<br/>",
+				"ui_EXP_action1" : "Layout<br/>",
+				"ui_EXP_LoadScr" : "Disable 'Loading' screen<br/>",
+				"ui_EXP_Title" : "<h3><b>⚠&nbsp;Experimental</b></h3>",
+				"ui_GENERAL_Description" : "<small>General wallpaper settings.</small>",
+				"ui_GENERAL_SchemeColor" : "Scheme color<br/>",
+				"ui_GENERAL_Title" : "<h3><b>🔧&nbsp;General</b></h3>",
+				"ui_SPECIAL_Creators" : "<br/><br/>Creators:<br/><a href='http://steamcommunity.com/id/ARGORUS/'><img src='http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/4a/4af4a3e0e6dac3542e8437fbf9b00cef1e7a6ca5_full.jpg' width='50' height='50' style='margin-right: 30px;'/>ARGORUS</a>",
+				"ui_VISUAL_BlurColor" : "➥&nbsp;Blur color<br/>",
+				"ui_VISUAL_BlurSize" : "Blur size (0 - disabled)<br/>",
+				"ui_VISUAL_CapStyle" : "➥&nbsp;Cap style<br/>",
+				"ui_VISUAL_CapStyle_1" : "None<br/>",
+				"ui_VISUAL_CapStyle_2" : "Round<br/>",
+				"ui_VISUAL_CapStyle_3" : "Square<br/>",
+				"ui_VISUAL_Color" : "Color<br/>",
+				"ui_VISUAL_Description" : "<small>Different parameters for visualization.</small>",
+				"ui_VISUAL_MaxHeight" : "➥&nbsp;Max bar height<br/>",
+				"ui_VISUAL_Opacity" : "Opacity<br/>",
+				"ui_VISUAL_RingRadius" : "➥&nbsp;Radius<br/>",
+				"ui_VISUAL_style" : "Style<br/>",
+				"ui_VISUAL_style_1" : "Segments<br/>",
+				"ui_VISUAL_style_2" : "Bars<br/>",
+				"ui_VISUAL_style_3" : "Wave<br/>",
+				"ui_VISUAL_style_4" : "Wave 2<br/>",
+				"ui_VISUAL_style_5" : "Dots<br/>",
+				"ui_VISUAL_geometry" : "Geometry<br/>",
+				"ui_VISUAL_geometry_1" : "Arc<br/>",
+				"ui_VISUAL_geometry_2" : "Line<br/>",
+				"ui_VISUAL_Title" : "<h3><b>🎨&nbsp;Visualization</b></h3>",
+				"ui_VISUAL_Width" : "➥&nbsp;Width<br/>",
+				"ui_VISUAL_colorType" : "Fill type<br/>",
+				"ui_VISUAL_colorType_1" : "Static color<br/>",
+				"ui_VISUAL_colorType_2" : "Gradient (profiles)<br/>",
+				"ui_VISUAL_colorType_3" : "Gradient (manual)<br/>",
+				"ui_VISUAL_colorType_4" : "Pattern (image)<br/>",
+				"ui_VISUAL_gProfile" : "Profiles<br/>",
+				"ui_VISUAL_gProfile_1" : "Profile 1<br/>",
+				"ui_VISUAL_gProfile_2" : "Profile 2<br/>",
+				"ui_VISUAL_gProfile_3" : "Profile 3<br/>",
+				"ui_VISUAL_gProfile_4" : "Profile 4<br/>",
+				"ui_VISUAL_startAngle" : "➥&nbsp;Primary angle<br/>",
+				"ui_VISUAL_circleLength" : "➥&nbsp;Arc length<br/>",
+				"ui_VISUAL_gMS" : "Moving speed<br/>",
+				"ui_VISUAL_warning" : "<small><font color='orange'><strong>It is not possible to use the selected style with this geometry.</strong></font></small>",
+				"ui_VISUAL_gaps" : "➥&nbsp;Gaps size<br/>",
+				"ui_VISUAL_pX" : "➥&nbsp;X-pozition<br/>",
+				"ui_VISUAL_pY" : "➥&nbsp;Y-pozition<br/>",
+				"ui_DUST_Title" : "<h3><b>💫&nbsp;Particles</b></h3>",
+				"ui_DUST_Description" : "<small>Adjusting the behavior of particles.</small>",
+				"ui_DUST_Bool" : "Enable particles<br/>",
+				"ui_DUST_Direction" : "Direction<br/>",
+				"ui_DUST_Direction_mode_1" : "Through the field<br/>",
+				"ui_DUST_Direction_mode_2" : "From the center<br/>",
+				"ui_DUST_Direction_mode_3" : "To the center<br/>",
+				"ui_DUST_Direction_mode_4" : "Through the screen<br/>",
+				"ui_DUST_Angle" : "Angle<br/>",
+				"ui_DUST_Amount" : "Amount<br/>",
+				"ui_DUST_FillType" : "Fill type<br/>",
+				"ui_DUST_FillType_mode_1" : "Static color<br/>",
+				"ui_DUST_FillType_mode_2" : "Dynamic color<br/>",
+				"ui_DUST_FillType_mode_3" : "Static rainbow<br/>",
+				"ui_DUST_FillType_mode_4" : "Dynamic rainbow<br/>",
+				"ui_DUST_Color" : "Color<br/>",
+				"ui_DUST_Hue" : "Hue<br/>",
+				"ui_DUST_ColorSpeed" : "Rate of change<br/>",
+				"ui_DUST_Size" : "Size<br/>",
+				"ui_DUST_Rotation" : "Rotation<br/>",
+				"ui_DUST_Pattern" : "Pattern<br/>",
+				"ui_DUST_Pattern_mode_1" : "Star<br/>",
+				"ui_DUST_Pattern_mode_2" : "Sun<br/>",
+				"ui_DUST_Pattern_mode_3" : "Flower<br/>",
+				"ui_DUST_Pattern_mode_4" : "Square<br/>",
+				"ui_DUST_Pattern_mode_5" : "Dot<br/>",
+				"ui_DUST_Pattern_mode_6" : "Circle<br/>",
+				"ui_DUST_Pattern_mode_99" : "Custom<br/>",
+				"ui_DUST_CustomPattern" : "Select image<br/>",
+				"ui_DUST_Respawn" : "<strong>RESPAWN ▶▶▶</strong><br/>"
+			},
+			"ru-ru" : 
+			{
+				"ui_MAIN_Menu" : "МЕНЮ:<br/>",
+				"ui_Menu_1" : "Основные<br/>",
+				"ui_Menu_2" : "Фон<br/>",
+				"ui_Menu_3" : "Визуализация<br/>",
+				"ui_Menu_4" : "Аудио<br/>",
+				"ui_Menu_5" : "Частицы<br/>",
+				"ui_Menu_6" : "Экспериментальные<br/>",
+				"ui_AUDIO_AA" : "Акцентирование<br/>",
+				"ui_AUDIO_AA_Mode" : "➥&nbsp;Степень<br/>",
+				"ui_AUDIO_Description" : "<small>Различные настройки аудио.</small>",
+				"ui_AUDIO_PNC" : "Коррекция розовым шумом<br/>",
+				"ui_AUDIO_PP" : "Пост-обработка<br/>", 
+				"ui_AUDIO_Title" : "<h3><b>🔈&nbsp;Аудио</b></h3>",
+				"ui_AUDIO_SI" : "Инверсия спектра<br/>",
+				"ui_AUDIO_SI_Mode_1" : "Без инверсии<br/>",
+				"ui_AUDIO_SI_Mode_2" : "Левый канал<br/>",
+				"ui_AUDIO_SI_Mode_3" : "Правый канал<br/>",
+				"ui_AUDIO_SI_Mode_4" : "Оба канала<br/>",
+				"ui_AUDIO_Swap" : "➥&nbsp;Поменять местами каналы<br/>",
+				"ui_AUDIO_AS" : "Размерность аудиоданных<br/>",
+				"ui_AUDIO_AS_Mode_1" : "64<br/>",
+				"ui_AUDIO_AS_Mode_2" : "128<br/>",
+				"ui_AUDIO_AS_Mode_3" : "256<br/>",
+				"ui_AUDIO_AS_Mode_4" : "512<br/>",
+				"ui_AUDIO_SM" : "Плавные переходы<br/>",
+				"ui_AUDIO_SM_Mode" : "➥&nbsp;Алгоритм<br/>",
+				"ui_AUDIO_SM_Mode_1" : "Дождь<br/>",
+				"ui_AUDIO_SM_Mode_2" : "Удержание<br/>",
+				"ui_AUDIO_SM_Mode_3" : "ПЭС<br/>",
+				"ui_AUDIO_SM_Mode_4" : "АСС<br/>",
+				"ui_AUDIO_SM_Mode_5" : "АСС (упрощенный)<br/>",
+				"ui_AUDIO_SM_Mode_6" : "алг. Хольта<br/>",
+				"ui_AUDIO_SM_SMA" : "➥&nbsp;Размер окна<br/>",
+				"ui_AUDIO_PP_MS" : "➥&nbsp;Размер матрицы<br/>",
+				"ui_AUDIO_PP_MS_Mode_1" : "1x3<br/>",
+				"ui_AUDIO_PP_MS_Mode_2" : "1x5<br/>",
+				"ui_AUDIO_PP_MS_Mode_3" : "1x7<br/>",
+				"ui_AUDIO_PP_CN" : "➥&nbsp;Число циклов<br/>",
+				"ui_AUDIO_VC_Mode" : "Режим компенсации громкости<br/>",
+				"ui_AUDIO_VC_Mode_1" : "Пик<br/>",
+				"ui_AUDIO_VC_Mode_2" : "Плавающий пик<br/>",
+				"ui_AUDIO_VC_Mode_3" : "Вручную<br/>",
+				"ui_AUDIO_VC_Manual" : "➥&nbsp;Делитель<br/>",
+				"ui_AUDIO_Median" : "Усечение по медиане<br/>",
+				"ui_AUDIO_adm" : "➥&nbsp;Добавочное усечение<br/>",
+				"ui_BG_Description" : "<small>Параметры стиля фона и связанных с ним эффектов.</small>",
+				"ui_BG_EFFECTS" : "<strong>🔆 Э Ф Ф Е К Т Ы</strong><br/>",
+				"ui_BG_Effects_Anaglyph" : "Анаглиф-движение<br/>",
+				"ui_BG_Effects_Anaglyph_Int" : "➥&nbsp;Интенсивность<br/>",
+				"ui_BG_Effects_Anaglyph_Sens" : "➥&nbsp;Чувствительность<br/>",
+				"ui_BG_Effects_Anaglyph_mode" : "➥&nbsp;Режим смешивания<br/>",
+				"ui_BG_Effects_Anaglyph_mode_1" : "Cyan/Red<br/>",
+				"ui_BG_Effects_Anaglyph_mode_2" : "Magenta/Green<br/>",
+				"ui_BG_Effects_Anaglyph_mode_3" : "Yellow/Blue<br/>",
+				"ui_BG_Effects_Anaglyph_mode_4" : "RGB<br/>",
+				"ui_BG_Effects_Anaglyph_mode_5" : "CMYK<br/>",
+				"ui_BG_Effects_Blur" : "Размытие<br/>",
+				"ui_BG_Effects_Blur_Int" : "➥&nbsp;Интенсивность<br/>",
+				"ui_BG_Effects_Blur_Sens" : "➥&nbsp;Чувствительность<br/>",
+				"ui_BG_Effects_Dupl" : "Размножение<br/>",
+				"ui_BG_Effects_Dupl_Int" : "➥&nbsp;Интенсивность<br/>",
+				"ui_BG_Effects_Shake" : "Вибрация<br/>",
+				"ui_BG_Effects_Shake_Int" : "➥&nbsp;Интенсивность<br/>",
+				"ui_BG_Effects_PUL" : "Пульсация<br/>",
+				"ui_BG_Effects_PUL_Int" : "➥&nbsp;Интенсивность<br/>",
+				"ui_BG_Folder" : "➥&nbsp;Папка:<br/>",
+				"ui_BG_SS_Delay" : "➥&nbsp;Задержка<br/>",
+				"ui_BG_SS_Delay_Mode_1" : "5 секунд<br/>",
+				"ui_BG_SS_Delay_Mode_2" : "10 секунд<br/>",
+				"ui_BG_SS_Delay_Mode_3" : "15 секунд<br/>",
+				"ui_BG_SS_Delay_Mode_4" : "20 секунд<br/>",
+				"ui_BG_SS_Delay_Mode_5" : "30 секунд<br/>",
+				"ui_BG_SS_Delay_Mode_6" : "1 минута<br/>",
+				"ui_BG_SS_Delay_Mode_7" : "2 минуты<br/>",
+				"ui_BG_SS_Delay_Mode_8" : "3 минуты<br/>",
+				"ui_BG_SS_Delay_Mode_9" : "5 минут<br/>",
+				"ui_BG_SS_Delay_Mode_10" : "10 минут<br/>",
+				"ui_BG_SS_Delay_Mode_11" : "15 минут<br/>",
+				"ui_BG_SS_Delay_Mode_12" : "20 минут<br/>",
+				"ui_BG_SS_Delay_Mode_13" : "30 минут<br/>",
+				"ui_BG_SS_Delay_Mode_14" : "1 час<br/>",
+				"ui_BG_SS_Delay_Mode_15" : "2 часа<br/>",
+				"ui_BG_SS_Delay_Mode_16" : "3 часа<br/>",
+				"ui_BG_SS_Delay_Mode_17" : "5 часов<br/>",
+				"ui_BG_SS_Delay_Mode_18" : "24 часа<br/>",
+				"ui_BG_Image" : "➥&nbsp;Файл:<br/>",
+				"ui_BG_Style" : "Стиль<br/>",
+				"ui_BG_Style_1" : "Классический<br/>",
+				"ui_BG_Style_2" : "Рамка-окружность<br/>",
+				"ui_BG_Style_3" : "Плитки<br/>",
+				"ui_BG_Title" : "<h3><b>🌌&nbsp;Фон</b></h3>",
+				"ui_BG_Type" : "Тип заполнения:<br/>",
+				"ui_BG_Type_1" : "Изображение<br/>",
+				"ui_BG_Type_2" : "Слайдшоу<br/>",
+				"ui_BG_Type_3" : "Видео ❌<br/>",
+				"ui_EXP_Bool" : "Показать настройки<br/>",
+				"ui_EXP_DebugInfo" : "Показать сведения для отладки<br/>",
+				"ui_EXP_FPSOnly" : "Показать только FPS<br/>",
+				"ui_EXP_Description" : "<small>Будьте осторожны, изменяя эти параметры.</small>",
+				"ui_EXP_ExpMod" : "Экспериментальный параметр<br/>",
+				"ui_EXP_param_Alpha" : "Альфа-параметр (сглаживание)<br/>",
+				"ui_EXP_param_Beta" : "Бета-параметр (сглаживание)<br/>",
+				"ui_EXP_FPSCap" : "Предельный FPS<br/>",
+				"ui_EXP_action1" : "Разметка<br/>",
+				"ui_EXP_LoadScr" : "Отключить экран загрузки<br/>",
+				"ui_EXP_Title" : "<h3><b>⚠&nbsp;Экспериментальные</b></h3>",
+				"ui_GENERAL_Description" : "<small>Основные настройки.</small>",
+				"ui_GENERAL_SchemeColor" : "Цветовая схема системы<br/>",
+				"ui_GENERAL_Title" : "<h3><b>🔧&nbsp;Основные</b></h3>",
+				"ui_VISUAL_BlurColor" : "➥&nbsp;Цвет свечения<br/>",
+				"ui_VISUAL_BlurSize" : "Радиус свечения (0 - отключено)<br/>",
+				"ui_VISUAL_CapStyle" : "➥&nbsp;Стиль крышек<br/>",
+				"ui_VISUAL_CapStyle_1" : "Нет крышки<br/>",
+				"ui_VISUAL_CapStyle_2" : "Круглая<br/>",
+				"ui_VISUAL_CapStyle_3" : "Квадратная<br/>",
+				"ui_VISUAL_Color" : "Цвет<br/>",
+				"ui_VISUAL_Description" : "<small>Различные настройки визуализации.</small>",
+				"ui_VISUAL_MaxHeight" : "➥&nbsp;Максимальная высота<br/>",
+				"ui_VISUAL_Opacity" : "Прозрачность<br/>",
+				"ui_VISUAL_RingRadius" : "➥&nbsp;Радиус<br/>",
+				"ui_VISUAL_style" : "Стиль<br/>",
+				"ui_VISUAL_style_1" : "Сегменты<br/>",
+				"ui_VISUAL_style_2" : "Столбцы<br/>",
+				"ui_VISUAL_style_3" : "Волна<br/>",
+				"ui_VISUAL_style_4" : "Волна 2<br/>",
+				"ui_VISUAL_style_5" : "Точки<br/>",
+				"ui_VISUAL_geometry" : "Геометрия<br/>",
+				"ui_VISUAL_geometry_1" : "Дуга<br/>",
+				"ui_VISUAL_geometry_2" : "Линия<br/>",
+				"ui_VISUAL_Title" : "<h3><b>🎨&nbsp;Визуализация</b></h3>",
+				"ui_VISUAL_Width" : "➥&nbsp;Ширина<br/>",
+				"ui_VISUAL_colorType" : "Тип заливки<br/>",
+				"ui_VISUAL_colorType_1" : "Равномерный цвет<br/>",
+				"ui_VISUAL_colorType_2" : "Градиент (профили)<br/>",
+				"ui_VISUAL_colorType_3" : "Градиент (вручную)<br/>",
+				"ui_VISUAL_colorType_4" : "Шаблон (изображение)<br/>",
+				"ui_VISUAL_gProfile" : "Профили<br/>",
+				"ui_VISUAL_gProfile_1" : "Профиль 1<br/>",
+				"ui_VISUAL_gProfile_2" : "Профиль 2<br/>",
+				"ui_VISUAL_gProfile_3" : "Профиль 3<br/>",
+				"ui_VISUAL_gProfile_4" : "Профиль 4<br/>",
+				"ui_VISUAL_startAngle" : "➥&nbsp;Начальный угол<br/>",
+				"ui_VISUAL_circleLength" : "➥&nbsp;Длина дуги<br/>",
+				"ui_VISUAL_gMS" : "➥&nbsp;Скорость движения<br/>",
+				"ui_VISUAL_warning" : "<small><font color='orange'><strong>Невозможно использовать выбранный стиль с заданной геометрией.</strong></font></small>",
+				"ui_VISUAL_gaps" : "➥&nbsp;Размер отступов<br/>",
+				"ui_VISUAL_pX" : "➥&nbsp;Позиция по X<br/>",
+				"ui_VISUAL_pY" : "➥&nbsp;Позиция по Y<br/>",
+				"ui_DUST_Title" : "<h3><b>💫&nbsp;Частицы</b></h3>",
+				"ui_DUST_Description" : "<small>Настройки поведения частиц.</small>",
+				"ui_DUST_Bool" : "Включить частицы<br/>",
+				"ui_DUST_Direction" : "Направление<br/>",
+				"ui_DUST_Direction_mode_1" : "Сквозное<br/>",
+				"ui_DUST_Direction_mode_2" : "Из центра<br/>",
+				"ui_DUST_Direction_mode_3" : "В центр<br/>",
+				"ui_DUST_Direction_mode_4" : "Сквозь экран<br/>",
+				"ui_DUST_Angle" : "Угол<br/>",
+				"ui_DUST_Amount" : "Количество<br/>",
+				"ui_DUST_FillType" : "Тип заливки<br/>",
+				"ui_DUST_FillType_mode_1" : "Статичный цвет<br/>",
+				"ui_DUST_FillType_mode_2" : "Динамический цвет<br/>",
+				"ui_DUST_FillType_mode_3" : "Статическая радуга<br/>",
+				"ui_DUST_FillType_mode_4" : "Динамическая радуга<br/>",
+				"ui_DUST_Color" : "Цвет<br/>",
+				"ui_DUST_Hue" : "Оттенок<br/>",
+				"ui_DUST_ColorSpeed" : "Скорость изменения<br/>",
+				"ui_DUST_Size" : "Размер<br/>",
+				"ui_DUST_Rotation" : "Вращение<br/>",
+				"ui_DUST_Pattern" : "Шаблон<br/>",
+				"ui_DUST_Pattern_mode_1" : "Звезда<br/>",
+				"ui_DUST_Pattern_mode_2" : "Солнце<br/>",
+				"ui_DUST_Pattern_mode_3" : "Цветок<br/>",
+				"ui_DUST_Pattern_mode_4" : "Квадрат<br/>",
+				"ui_DUST_Pattern_mode_5" : "Точка<br/>",
+				"ui_DUST_Pattern_mode_6" : "Круг<br/>",
+				"ui_DUST_Pattern_mode_99" : "Другой<br/>",
+				"ui_DUST_CustomPattern" : "Выбрать картинку<br/>",
+				"ui_DUST_Respawn" : "<strong>РЕСПАВН ▶▶▶</strong><br/>"
+			}
+		},
+		"properties" : 
+		{
+			"MAIN_Menu" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "ui_Menu_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_Menu_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_Menu_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_Menu_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_Menu_5",
+						"value" : 5
+					},
+					{
+						"label" : "ui_Menu_6",
+						"value" : 6
+					}
+				],
+				"order" : 100,
+				"text" : "ui_MAIN_Menu",
+				"type" : "combo",
+				"value" : 1
+			},
+			"AUDIO_AA" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 407,
+				"text" : "ui_AUDIO_AA",
+				"type" : "bool",
+				"value" : false
+			},
+			"AUDIO_AA_Mode" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_AA.value == true",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 408,
+				"text" : "ui_AUDIO_AA_Mode",
+				"type" : "slider",
+				"value" : 10
+			},
+			"AUDIO_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 402,
+				"text" : "ui_AUDIO_Description",
+				"type" : "text"
+			},
+			"AUDIO_PNC" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 403,
+				"text" : "ui_AUDIO_PNC",
+				"type" : "bool",
+				"value" : true
+			},
+			"AUDIO_PP" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 404,
+				"text" : "ui_AUDIO_PP",
+				"type" : "bool",
+				"value" : true
+			},
+			"AUDIO_PP_MS" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_PP.value == true",
+				"options" : 
+				[
+					{
+						"label" : "ui_AUDIO_PP_MS_Mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_AUDIO_PP_MS_Mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_AUDIO_PP_MS_Mode_3",
+						"value" : 3
+					}
+				],
+				"order" : 405,
+				"text" : "ui_AUDIO_PP_MS",
+				"type" : "combo",
+				"value" : 3
+			},
+			"AUDIO_PP_CN" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_PP.value == true",
+				"editable" : false,
+				"max" : 30,
+				"min" : 1,
+				"order" : 406,
+				"text" : "ui_AUDIO_PP_CN",
+				"type" : "slider",
+				"value" : 3
+			},
+			"AUDIO_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 401,
+				"text" : "ui_AUDIO_Title",
+				"type" : "text"
+			},
+			"AUDIO_SI" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"options" : 
+				[
+					{
+						"label" : "ui_AUDIO_SI_Mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_AUDIO_SI_Mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_AUDIO_SI_Mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_AUDIO_SI_Mode_4",
+						"value" : 4
+					}
+				],
+				"order" : 409,
+				"text" : "ui_AUDIO_SI",
+				"type" : "combo",
+				"value" : 1
+			},
+			"AUDIO_Swap" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 410,
+				"text" : "ui_AUDIO_Swap",
+				"type" : "bool",
+				"value" : false
+			},
+			"AUDIO_AS" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"options" : 
+				[
+					{
+						"label" : "ui_AUDIO_AS_Mode_1",
+						"value" : 64
+					},
+					{
+						"label" : "ui_AUDIO_AS_Mode_2",
+						"value" : 128
+					},
+					{
+						"label" : "ui_AUDIO_AS_Mode_3",
+						"value" : 256
+					},
+					{
+						"label" : "ui_AUDIO_AS_Mode_4",
+						"value" : 512
+					}
+				],
+				"order" : 411,
+				"text" : "ui_AUDIO_AS",
+				"type" : "combo",
+				"value" : 512
+			},
+			"AUDIO_SM" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 412,
+				"text" : "ui_AUDIO_SM",
+				"type" : "bool",
+				"value" : true
+			},
+			"AUDIO_SM_Mode" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_SM.value == true",
+				"options" : 
+				[
+					{
+						"label" : "ui_AUDIO_SM_Mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_AUDIO_SM_Mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_AUDIO_SM_Mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_AUDIO_SM_Mode_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_AUDIO_SM_Mode_5",
+						"value" : 5
+					},
+					{
+						"label" : "ui_AUDIO_SM_Mode_6",
+						"value" : 6
+					}
+				],
+				"order" : 413,
+				"text" : "ui_AUDIO_SM_Mode",
+				"type" : "combo",
+				"value" : 3
+			},
+			"AUDIO_SM_SMA" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && (AUDIO_SM_Mode.value == 4 || AUDIO_SM_Mode.value == 5) && AUDIO_SM.value == true",
+				"editable" : false,
+				"max" : 10,
+				"min" : 2,
+				"order" : 414,
+				"text" : "ui_AUDIO_SM_SMA",
+				"type" : "slider",
+				"value" : 3
+			},
+			"AUDIO_VC_Mode" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"options" : 
+				[
+					{
+						"label" : "ui_AUDIO_VC_Mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_AUDIO_VC_Mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_AUDIO_VC_Mode_3",
+						"value" : 3
+					}
+				],
+				"order" : 415,
+				"text" : "ui_AUDIO_VC_Mode",
+				"type" : "combo",
+				"value" : 1
+			},
+			"AUDIO_VC_Manual" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_VC_Mode.value == 3",
+				"editable" : false,
+				"max" : 40,
+				"min" : 1,
+				"order" : 416,
+				"text" : "ui_AUDIO_VC_Manual",
+				"type" : "slider",
+				"value" : 12
+			},
+			"AUDIO_Median" : 
+			{
+				"condition" : "MAIN_Menu.value == 4",
+				"order" : 417,
+				"text" : "ui_AUDIO_Median",
+				"type" : "bool",
+				"value" : true
+			},
+			"AUDIO_adm" : 
+			{
+				"condition" : "MAIN_Menu.value == 4 && AUDIO_Median.value == true",
+				"editable" : false,
+				"max" : 30,
+				"min" : 0,
+				"order" : 418,
+				"text" : "ui_AUDIO_adm",
+				"type" : "slider",
+				"value" : 20
+			},
+			"BG_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 2",
+				"order" : 202,
+				"text" : "ui_BG_Description",
+				"type" : "text"
+			},
+			"BG_EFFECTS" : 
+			{
+				"condition" : "MAIN_Menu.value == 2",
+				"order" : 250,
+				"text" : "ui_BG_EFFECTS",
+				"type" : "text"
+			},
+			"BG_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 2",
+				"order" : 201,
+				"text" : "ui_BG_Title",
+				"type" : "text"
+			},
+			"BG_folder" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_type.value == 2",
+				"order" : 205,
+				"text" : "ui_BG_Folder",
+				"type" : "directory",
+				"mode" : "ondemand"
+			},
+			"BG_image" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_type.value == 1",
+				"order" : 204,
+				"text" : "ui_BG_Image",
+				"type" : "file",
+				"value" : "default"
+			},
+			"BG_style" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && (BG_type.value == 1 || BG_type.value == 2)",
+				"options" : 
+				[
+					{
+						"label" : "ui_BG_Style_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_BG_Style_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_BG_Style_3",
+						"value" : 3
+					}
+				],
+				"order" : 220,
+				"text" : "ui_BG_Style",
+				"type" : "combo",
+				"value" : 1
+			},
+			"BG_type" : 
+			{
+				"condition" : "MAIN_Menu.value == 2",
+				"options" : 
+				[
+					{
+						"label" : "ui_BG_Type_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_BG_Type_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_BG_Type_3",
+						"value" : 3
+					}
+				],
+				"order" : 203,
+				"text" : "ui_BG_Type",
+				"type" : "combo",
+				"value" : 1
+			},
+			"BG_SS_Delay" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_type.value == 2",
+				"options" : 
+				[
+					{
+						"label" : "ui_BG_SS_Delay_Mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_5",
+						"value" : 5
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_6",
+						"value" : 6
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_7",
+						"value" : 7
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_8",
+						"value" : 8
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_9",
+						"value" : 9
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_10",
+						"value" : 10
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_11",
+						"value" : 11
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_12",
+						"value" : 12
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_13",
+						"value" : 13
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_14",
+						"value" : 14
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_15",
+						"value" : 15
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_16",
+						"value" : 16
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_17",
+						"value" : 17
+					},
+					{
+						"label" : "ui_BG_SS_Delay_Mode_18",
+						"value" : 18
+					}
+				],
+				"order" : 206,
+				"text" : "ui_BG_SS_Delay",
+				"type" : "combo",
+				"value" : 5
+			},
+			"EF_A_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 1 && EF_D_Bool.value == false",
+				"order" : 251,
+				"text" : "ui_BG_Effects_Anaglyph",
+				"type" : "bool",
+				"value" : false
+			},
+			"EF_A_Intensity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_A_Bool.value == true && BG_style.value == 1",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 253,
+				"text" : "ui_BG_Effects_Anaglyph_Int",
+				"type" : "slider",
+				"value" : 10
+			},
+			"EF_A_Mode" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_A_Bool.value == true && BG_style.value == 1",
+				"options" : 
+				[
+					{
+						"label" : "ui_BG_Effects_Anaglyph_mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_BG_Effects_Anaglyph_mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_BG_Effects_Anaglyph_mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_BG_Effects_Anaglyph_mode_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_BG_Effects_Anaglyph_mode_5",
+						"value" : 5
+					}
+				],
+				"order" : 252,
+				"text" : "ui_BG_Effects_Anaglyph_mode",
+				"type" : "combo",
+				"value" : 1
+			},
+			"EF_A_Sensitivity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_A_Bool.value == true && BG_style.value == 1",
+				"editable" : false,
+				"max" : 100,
+				"min" : 0,
+				"order" : 254,
+				"text" : "ui_BG_Effects_Anaglyph_Sens",
+				"type" : "slider",
+				"value" : 100
+			},
+			"EF_B_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 1",
+				"order" : 255,
+				"text" : "ui_BG_Effects_Blur",
+				"type" : "bool",
+				"value" : false
+			},
+			"EF_B_Intensity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_B_Bool.value == true && BG_style.value == 1",
+				"editable" : false,
+				"max" : 30,
+				"min" : 1,
+				"order" : 257,
+				"text" : "ui_BG_Effects_Blur_Int",
+				"type" : "slider",
+				"value" : 2
+			},
+			"EF_B_Sensitivity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_B_Bool.value == true && BG_style.value == 1",
+				"editable" : false,
+				"max" : 100,
+				"min" : 0,
+				"order" : 258,
+				"text" : "ui_BG_Effects_Blur_Sens",
+				"type" : "slider",
+				"value" : 100
+			},
+			"EF_D_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 1 && EF_A_Bool.value == false",
+				"order" : 259,
+				"text" : "ui_BG_Effects_Dupl",
+				"type" : "bool",
+				"value" : false
+			},
+			"EF_D_Intensity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_D_Bool.value == true && BG_style.value == 1",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 260,
+				"text" : "ui_BG_Effects_Dupl_Int",
+				"type" : "slider",
+				"value" : 5
+			},
+			"EF_SH_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 1",
+				"order" : 261,
+				"text" : "ui_BG_Effects_Shake",
+				"type" : "bool",
+				"value" : false
+			},
+			"EF_SH_Intensity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 1 && EF_SH_Bool.value == true",
+				"editable" : false,
+				"max" : 20,
+				"min" : 1,
+				"order" : 262,
+				"text" : "ui_BG_Effects_Shake_Int",
+				"type" : "slider",
+				"value" : 10
+			},
+			"EF_PUL_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && BG_style.value == 2",
+				"order" : 280,
+				"text" : "ui_BG_Effects_PUL",
+				"type" : "bool",
+				"value" : true
+			},
+			"EF_PUL_Intensity" : 
+			{
+				"condition" : "MAIN_Menu.value == 2 && EF_PUL_Bool.value == true && BG_style.value == 2",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 281,
+				"text" : "ui_BG_Effects_PUL_Int",
+				"type" : "slider",
+				"value" : 10
+			},
+			"EXP_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 6",
+				"order" : 503,
+				"text" : "ui_EXP_Bool",
+				"type" : "bool",
+				"value" : false
+			},
+			"EXP_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 6",
+				"order" : 502,
+				"text" : "ui_EXP_Description",
+				"type" : "text"
+			},
+			"EXP_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 6",
+				"order" : 501,
+				"text" : "ui_EXP_Title",
+				"type" : "text"
+			},
+			"EXP_debuginfo" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : true,
+				"order" : 505,
+				"text" : "ui_EXP_DebugInfo",
+				"type" : "bool",
+				"value" : false
+			},
+			"EXP_fpsonly" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true && EXP_debuginfo.value == true",
+				"editable" : true,
+				"order" : 506,
+				"text" : "ui_EXP_FPSOnly",
+				"type" : "bool",
+				"value" : false
+			},
+			"EXP_alpha" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : false,
+				"max" : 100,
+				"min" : 1,
+				"order" : 511,
+				"text" : "ui_EXP_param_Alpha",
+				"type" : "slider",
+				"value" : 50
+			},
+			"EXP_beta" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : false,
+				"max" : 100,
+				"min" : 50,
+				"order" : 512,
+				"text" : "ui_EXP_param_Beta",
+				"type" : "slider",
+				"value" : 100
+			},
+			"EXP_sl4" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : false,
+				"max" : 100,
+				"min" : 1,
+				"order" : 514,
+				"text" : "ui_EXP_ExpMod",
+				"type" : "slider",
+				"value" : 1
+			},
+			"EXP_fpsCap" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : false,
+				"max" : 300,
+				"min" : 5,
+				"order" : 504,
+				"text" : "ui_EXP_FPSCap",
+				"type" : "slider",
+				"value" : 60
+			},
+			"EXP_action1" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : true,
+				"order" : 510,
+				"text" : "ui_EXP_action1",
+				"type" : "bool",
+				"value" : false
+			},
+			"EXP_loadscrbool" : 
+			{
+				"condition" : "MAIN_Menu.value == 6 && EXP_Bool.value == true",
+				"editable" : true,
+				"order" : 507,
+				"text" : "ui_EXP_LoadScr",
+				"type" : "bool",
+				"value" : false
+			},
+			"GENERAL_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 1",
+				"order" : 102,
+				"text" : "ui_GENERAL_Description",
+				"type" : "text"
+			},
+			"GENERAL_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 1",
+				"order" : 101,
+				"text" : "ui_GENERAL_Title",
+				"type" : "text"
+			},
+			"SPECIAL_Creators" : 
+			{
+				"order" : 601,
+				"text" : "ui_SPECIAL_Creators",
+				"type" : "text"
+			},
+			"VISUAL_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"order" : 302,
+				"text" : "ui_VISUAL_Description",
+				"type" : "text"
+			},
+			"VISUAL_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"order" : 301,
+				"text" : "ui_VISUAL_Title",
+				"type" : "text"
+			},
+			"VISUAL_circleRad" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_geometry.value == 1",
+				"editable" : false,
+				"max" : 600,
+				"min" : 10,
+				"order" : 311,
+				"text" : "ui_VISUAL_RingRadius",
+				"type" : "slider",
+				"value" : 30
+			},
+			"VISUAL_colBlurC" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_colBlurS.value != 0",
+				"order" : 341,
+				"text" : "ui_VISUAL_BlurColor",
+				"type" : "color",
+				"value" : "1.0 1.0 1.0"
+			},
+			"VISUAL_colBlurS" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"editable" : false,
+				"max" : 40,
+				"min" : 0,
+				"order" : 340,
+				"text" : "ui_VISUAL_BlurSize",
+				"type" : "slider",
+				"value" : 40
+			},
+			"VISUAL_colC" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_colorType.value == 1",
+				"order" : 333,
+				"text" : "ui_VISUAL_Color",
+				"type" : "color",
+				"value" : "1.0 1.0 1.0"
+			},
+			"VISUAL_gProfile" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_colorType.value == 2",
+				"options" : 
+				[
+					{
+						"label" : "ui_VISUAL_gProfile_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_VISUAL_gProfile_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_VISUAL_gProfile_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_VISUAL_gProfile_4",
+						"value" : 4
+					}
+				],
+				"order" : 331,
+				"text" : "ui_VISUAL_gProfile",
+				"type" : "combo",
+				"value" : 1
+			},
+			"VISUAL_gMS" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && (VISUAL_colorType.value == 2 || VISUAL_colorType.value == 3)",
+				"editable" : false,
+				"max" : 100,
+				"min" : -100,
+				"order" : 332,
+				"text" : "ui_VISUAL_gMS",
+				"type" : "slider",
+				"value" : 0
+			},
+			"VISUAL_colorType" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"options" : 
+				[
+					{
+						"label" : "ui_VISUAL_colorType_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_VISUAL_colorType_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_VISUAL_colorType_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_VISUAL_colorType_4",
+						"value" : 4
+					}
+				],
+				"order" : 330,
+				"text" : "ui_VISUAL_colorType",
+				"type" : "combo",
+				"value" : 1
+			},
+			"VISUAL_colCap" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_style.value == 2",
+				"options" : 
+				[
+					{
+						"label" : "ui_VISUAL_CapStyle_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_VISUAL_CapStyle_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_VISUAL_CapStyle_3",
+						"value" : 3
+					}
+				],
+				"order" : 324,
+				"text" : "ui_VISUAL_CapStyle",
+				"type" : "combo",
+				"value" : 2
+			},
+			"VISUAL_colMax" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && (VISUAL_geometry.value == 1 || (VISUAL_geometry.value == 2 && VISUAL_style.value != 1))",
+				"editable" : false,
+				"max" : 4000,
+				"min" : 50,
+				"order" : 321,
+				"text" : "ui_VISUAL_MaxHeight",
+				"type" : "slider",
+				"value" : 200
+			},
+			"VISUAL_colO" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"editable" : false,
+				"max" : 100,
+				"min" : 0,
+				"order" : 334,
+				"text" : "ui_VISUAL_Opacity",
+				"type" : "slider",
+				"value" : 100
+			},
+			"VISUAL_colW" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && (VISUAL_style.value == 2 || VISUAL_style.value == 4 || VISUAL_style.value == 5)",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 323,
+				"text" : "ui_VISUAL_Width",
+				"type" : "slider",
+				"value" : 1
+			},
+			"VISUAL_gaps" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_style.value != 1 && VISUAL_geometry.value == 2",
+				"editable" : false,
+				"max" : 200,
+				"min" : 5,
+				"order" : 325,
+				"text" : "ui_VISUAL_gaps",
+				"type" : "slider",
+				"value" : 5
+			},
+			"VISUAL_pX" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"editable" : false,
+				"max" : 1200,
+				"min" : -1200,
+				"order" : 316,
+				"text" : "ui_VISUAL_pX",
+				"type" : "slider",
+				"value" : 0
+			},
+			"VISUAL_pY" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"editable" : false,
+				"max" : 1200,
+				"min" : -1200,
+				"order" : 317,
+				"text" : "ui_VISUAL_pY",
+				"type" : "slider",
+				"value" : 0
+			},
+			"VISUAL_geometry" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"options" : 
+				[
+					{
+						"label" : "ui_VISUAL_geometry_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_VISUAL_geometry_2",
+						"value" : 2
+					}
+				],
+				"order" : 310,
+				"text" : "ui_VISUAL_geometry",
+				"type" : "combo",
+				"value" : 1
+			},
+			"VISUAL_warning" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_geometry.value == 2 && VISUAL_style.value == 1",
+				"order" : 329,
+				"text" : "ui_VISUAL_warning",
+				"type" : "text"
+			},
+			"VISUAL_style" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"options" : 
+				[
+					{
+						"label" : "ui_VISUAL_style_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_VISUAL_style_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_VISUAL_style_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_VISUAL_style_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_VISUAL_style_5",
+						"value" : 5
+					}
+				],
+				"order" : 320,
+				"text" : "ui_VISUAL_style",
+				"type" : "combo",
+				"value" : 4
+			},
+			"VISUAL_startAngle" : 
+			{
+				"condition" : "MAIN_Menu.value == 3",
+				"editable" : false,
+				"max" : 360,
+				"min" : 0,
+				"order" : 312,
+				"text" : "ui_VISUAL_startAngle",
+				"type" : "slider",
+				"value" : 0
+			},
+			"VISUAL_circleLength" : 
+			{
+				"condition" : "MAIN_Menu.value == 3 && VISUAL_geometry.value == 1",
+				"editable" : false,
+				"max" : 360,
+				"min" : 20,
+				"order" : 313,
+				"text" : "ui_VISUAL_circleLength",
+				"type" : "slider",
+				"value" : 360
+			},
+			"DUST_Description" : 
+			{
+				"condition" : "MAIN_Menu.value == 5",
+				"order" : 451,
+				"text" : "ui_DUST_Description",
+				"type" : "text"
+			},
+			"DUST_Title" : 
+			{
+				"condition" : "MAIN_Menu.value == 5",
+				"order" : 450,
+				"text" : "ui_DUST_Title",
+				"type" : "text"
+			},
+			"DUST_Bool" : 
+			{
+				"condition" : "MAIN_Menu.value == 5",
+				"order" : 452,
+				"text" : "ui_DUST_Bool",
+				"type" : "bool",
+				"value" : true
+			},
+			"DUST_Amount" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"editable" : false,
+				"max" : 1000,
+				"min" : 10,
+				"order" : 453,
+				"text" : "ui_DUST_Amount",
+				"type" : "slider",
+				"value" : 200
+			},
+			"DUST_Direction" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"options" : 
+				[
+					{
+						"label" : "ui_DUST_Direction_mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_DUST_Direction_mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_DUST_Direction_mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_DUST_Direction_mode_4",
+						"value" : 4
+					}
+				],
+				"order" : 454,
+				"text" : "ui_DUST_Direction",
+				"type" : "combo",
+				"value" : 1
+			},
+			"DUST_Angle" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true && DUST_Direction.value == 1",
+				"editable" : false,
+				"max" : 360,
+				"min" : 0,
+				"order" : 455,
+				"text" : "ui_DUST_Angle",
+				"type" : "slider",
+				"value" : 45
+			},
+			"DUST_FillType" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"options" : 
+				[
+					{
+						"label" : "ui_DUST_FillType_mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_DUST_FillType_mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_DUST_FillType_mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_DUST_FillType_mode_4",
+						"value" : 4
+					}
+				],
+				"order" : 456,
+				"text" : "ui_DUST_FillType",
+				"type" : "combo",
+				"value" : 1
+			},
+			"DUST_Color" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true && DUST_FillType.value == 1",
+				"order" : 457,
+				"text" : "ui_DUST_Color",
+				"type" : "color",
+				"value" : "1.0 1.0 1.0"
+			},
+			"DUST_Hue" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true && DUST_FillType.value == 3",
+				"editable" : false,
+				"max" : 360,
+				"min" : 0,
+				"order" : 458,
+				"text" : "ui_DUST_Hue",
+				"type" : "slider",
+				"value" : 0
+			},
+			"DUST_ColorSpeed" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true && (DUST_FillType.value == 2 || DUST_FillType.value == 4)",
+				"editable" : false,
+				"max" : 50,
+				"min" : 1,
+				"order" : 459,
+				"text" : "ui_DUST_ColorSpeed",
+				"type" : "slider",
+				"value" : 1
+			},
+			"DUST_Size" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"editable" : false,
+				"max" : 100,
+				"min" : 10,
+				"order" : 460,
+				"text" : "ui_DUST_Size",
+				"type" : "slider",
+				"value" : 20
+			},
+			"DUST_Rotation" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"editable" : false,
+				"max" : 20,
+				"min" : -20,
+				"order" : 461,
+				"text" : "ui_DUST_Rotation",
+				"type" : "slider",
+				"value" : 0
+			},
+			"DUST_Pattern" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"options" : 
+				[
+					{
+						"label" : "ui_DUST_Pattern_mode_1",
+						"value" : 1
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_2",
+						"value" : 2
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_3",
+						"value" : 3
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_4",
+						"value" : 4
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_5",
+						"value" : 5
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_6",
+						"value" : 6
+					},
+					{
+						"label" : "ui_DUST_Pattern_mode_99",
+						"value" : 99
+					}
+				],
+				"order" : 462,
+				"text" : "ui_DUST_Pattern",
+				"type" : "combo",
+				"value" : 1
+			},
+			"DUST_CustomPattern" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true && DUST_Pattern.value == 99",
+				"order" : 463,
+				"text" : "ui_DUST_CustomPattern",
+				"type" : "file",
+				"value" : "default"
+			},
+			"DUST_Respawn" : 
+			{
+				"condition" : "MAIN_Menu.value == 5 && DUST_Bool.value == true",
+				"order" : 499,
+				"text" : "ui_DUST_Respawn",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"condition" : "MAIN_Menu.value == 1",
+				"order" : 103,
+				"text" : "ui_GENERAL_SchemeColor",
+				"type" : "color",
+				"value" : "0.0 0.0 0.0"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "images/prev.png",
+	"title" : "Sound Drawer v.1.9",
+	"type" : "web"
+}
